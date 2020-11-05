@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins',  sans-serif;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 0 35px #5d5e62;
+    min-width: 450px;
+  
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    color: #5d5e62;
+    margin: 0;
+    box-sizing: border-box;
+}
+#taskInput::placeholder{
+    color: #b0c3c9;
+
+}
+h1{
+    color: #c0978d;
+    font-size: 5rem;
+}
+.card Input{
+
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding-left: 1.5em;
+
+    line-height: 3em;
+    height: 3em;
+    padding-top: 15px;
+
+    color: #5d5e62;
+
+
+}
+#taskInput{
+    font-size: 24px;
+    font-style: italic;
+    border: 0;
+}
+
+.editing{
+    display: none;
+    position: relative;
+    white-space: pre-line;
+    font-size: 18px;
+    padding: 13px 8px 10px 58px;
+    border: 0;
+    
+}
+
+
+ul li {
+    white-space: pre-line;
+    
+    cursor: pointer;
+    position: relative;
+    
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.1s;
+    border-top: 1px solid #dfe7e9;
+
+}
+ul li:hover>.close{
+    visibility: visible;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #dfe7e9;
+}
+label{
+    cursor: pointer;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 14px 10px 14px;
+    color: #972426 ;
+    visibility: hidden;
+    font-size: 24px;
+}
+.footer{
+    border-top: 1px solid #dfe7e9;
+    padding-left: 34px;
+    display: flex;
+    justify-content: space-between;
+    color: #5d5e62;
+    font-family: sans-serif;
+}
+.footer button{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: #5d5e62;
+    padding: 3px 9px;
+    margin: 7px 3px;
+    
+ }
+.buttonsSwitch button:hover{
+    border-color:  #dfe7e9;
+}
+
+button.chosen{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #c0978d;
+}
+button.chosen:hover{
+    border-color: #c0978d;
+}
+#buttonClear button:hover{
+    text-decoration: underline;
+    color: #972426 ;
+}
+.counter {
+    /*!*background-color: #c0978d;*!*/
+    padding: 8px;
+    margin: 2px 0px;
+    font-size: 0.85em;
+}
+
+
+
+
+
+
+
+
